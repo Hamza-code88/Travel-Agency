@@ -4,3 +4,19 @@
     box-sizing: border-box;
     
 }
+.forma{
+    margin:40px;
+}
+.jadoo{
+    font-size:xx-large;
+    text-align: center;
+    font-weight:bold;
+    font-family:timesnew roman;
+}
+.button{
+    background-color:transparent;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
