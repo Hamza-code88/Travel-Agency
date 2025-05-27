@@ -1,6 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+hero {
+width: 1734.66650390625;
+height: 918.6309204101562;
+top: -134.46px;
+left: -379px;
+border: 0.9px solid #212832;
+}
+h5.text-color {
+    color: #ff7f50;
+ text-transform: uppercase;
+}
+h5.margin-top {
+    margin-top: 80px;
 }
