@@ -48,7 +48,29 @@ img {
 p.hero-text {
     color: #5e6282;
 }
-@media (min-width:912px) {
+@media  screen and (max-width:430px) {
+.hero-heading {
+    width: 100%;
+    font-size: 30px;
+}    
+.demo-btn {
+padding: 8px 12px;
+font-size: 15px;
+}
+img {
+    width: 35px;
+    height: 35px;
+}
+.find-more {
+    padding: 8px 12px;
+    font-size: 15px;
+    margin: 3px;
+}
+.hero {
+    padding: 8px 12px;
+}
+}
+@media screen and (min-width:912px) {
 .hero {
    background-image: url('../images/Traveller\ 1.png'), url('../images/Group.png'),
    url('../images/Group.png'), url('../images/Decore.svg');
