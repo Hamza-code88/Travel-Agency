@@ -46,11 +46,11 @@ img {
 .btn-section {
     margin-top: 35px;
 }
-@media (min-width:920px) {
+@media (min-width:912px) {
 .hero {
    background-image: url(../images/Traveller\ 1.png), url(../images/Group.png), url(../images/Group.png);
-     background-position: top right, 30% 70%,;
-     background-repeat: no-repeat;
-     background-size: 45% 100%;
+     background-position: 80% 50px, 60% 100px,  88% 130px;
+     background-repeat: no-repeat, no-repeat, no-repeat;
+     background-size: 40% 95%, 100px 80px, 100px 80px;
 }
 }
