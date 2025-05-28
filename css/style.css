@@ -48,8 +48,8 @@ img {
 }
 @media (min-width:920px) {
 .hero {
-   background-image: url(../images/hero-image.jpeg);
-     background-position: top right;
+   background-image: url(../images/Traveller\ 1.png), url(../images/Group.png), url(../images/Group.png);
+     background-position: top right, 30% 70%,;
      background-repeat: no-repeat;
      background-size: 45% 100%;
 }
