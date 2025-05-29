@@ -4,26 +4,6 @@
     box-sizing: border-box;
     
 }
-/* .forma{
-    margin:40px;
-}
-.jadoo{
-    font-size:xx-large; wrong 
-    font-size: 25px;
-    text-align: center;
-    font-weight:bold;
-    font-family:timesnew roman; wrong 
-    font-family: sans-serif;
-}
-.button{
-    background-color:transparent;
-}
-a{
-    color:black;
-    text-decoration:none;
-} */
-
-
 /* correct  */
 .navbar {
   display: flex;
