@@ -1,36 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
+  <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel Agency</title>
-     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-      <link rel="stylesheet" href="css/style.css" />
-
+  <title>Travel Agency</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-<div class="hero">
-  <picture>
+  <!-- Transparent Navbar -->
+  <nav class="navbar">
+    <div class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
     
-  </picture>
-  <h5 class="margin-top text-color">
-Best Destinations around the world
-  </h5>
-<h1 class="hero-heading">
-  Travel, enjoy and live a new and full life
-</h1>
-<p class="hero-text"> 
-  Built Wicket longer admire do barton vanity itself do in it. <br>
-  preferred to sportsman it engrossed listning. Park gote <br>
-  sell they west hard for the.
-</p>
-<div class="btn-section">
-<a class="find-more" href="">Find out more</a>
-<a class="demo-btn" href=""><img src="images/play-button.png" alt="play-button" />
-  Play Demo</a>
+    <div class="logo">
+      <svg width="104" height="32" viewBox="0 0 104 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M67.0134 26.484L75.5861 29.1912L82.8052 21.9721L91.8291 28.2888L101.304 26.484L97.2434 13.3994L82.8052 17.9113L74.6837 13.3994L66.111 14.753L67.0134 26.484Z" fill="#F1A501"/>
+        <path d="M0.16449 22.0299V20.0789L5.6853 19.0827V21.7808C5.71297 23.2475 6.08656 24.3544 6.80606 25.1016C7.55324 25.8211 8.53564 26.1809 9.75326 26.1809C10.9432 26.1809 11.8841 25.7934 12.5759 25.0186C13.2954 24.2437 13.6552 23.206 13.6552 21.9053V1.56552H19.3835V21.9053C19.3835 24.6173 18.4842 26.9142 16.6854 28.796C14.8866 30.6778 12.5898 31.6186 9.79477 31.6186C6.88908 31.6186 4.5507 30.7469 2.77961 29.0035C1.0362 27.2324 0.16449 24.9079 0.16449 22.0299Z" fill="black"/>
+        <path d="M20.6999 25.4337C20.6999 23.6903 21.2672 22.2928 22.4018 21.2412C23.5364 20.1896 25.0031 19.5254 26.8018 19.2487L31.8245 18.5015C32.8484 18.3632 33.3604 17.8789 33.3604 17.0487C33.3604 16.2738 33.056 15.6374 32.4472 15.1392C31.866 14.6411 31.022 14.3921 29.9151 14.3921C28.7528 14.3921 27.8257 14.7103 27.1339 15.3468C26.4697 15.9833 26.0961 16.772 26.0131 17.7128L21.115 16.6751C21.3087 14.904 22.1804 13.3405 23.7301 11.9845C25.2798 10.6285 27.3276 9.95051 29.8735 9.95051C32.9176 9.95051 35.1591 10.6838 36.5981 12.1505C38.0371 13.5895 38.7566 15.4436 38.7566 17.7128V27.7582C38.7566 28.9759 38.8397 30.0551 39.0057 30.996H33.9415C33.8031 30.3872 33.734 29.5708 33.734 28.5469C32.4333 30.5671 30.427 31.5771 27.715 31.5771C25.6119 31.5771 23.91 30.9683 22.6093 29.7507C21.3363 28.5331 20.6999 27.0941 20.6999 25.4337ZM28.8773 27.4677C30.1779 27.4677 31.2434 27.1079 32.0736 26.3884C32.9314 25.6412 33.3604 24.4236 33.3604 22.7355V21.8223L28.7528 22.528C27.0647 22.7771 26.2207 23.6349 26.2207 25.1016C26.2207 25.7658 26.4559 26.3331 26.9263 26.8035C27.3968 27.2463 28.0471 27.4677 28.8773 27.4677Z" fill="black"/>
+        <path d="M60.3878 0.942871V27.3016C60.3878 28.6576 60.4432 29.8891 60.5539 30.996H55.2821C55.1437 30.3042 55.0746 29.5155 55.0746 28.6299C54.6041 29.4878 53.8569 30.1796 52.833 30.7054C51.8368 31.2312 50.6745 31.4941 49.3462 31.4941C46.4405 31.4941 44.0468 30.484 42.165 28.4639C40.3109 26.4161 39.3838 23.8425 39.3838 20.7431C39.3838 17.7267 40.2971 15.1946 42.1235 13.1468C43.9776 11.0989 46.3298 10.075 49.1802 10.075C52.1135 10.075 54.0368 10.9191 54.95 12.6071V0.942871H60.3878ZM44.9462 20.7431C44.9462 22.5418 45.4166 23.967 46.3575 25.0186C47.2984 26.0425 48.516 26.5544 50.0104 26.5544C51.477 26.5544 52.6808 26.0287 53.6217 24.9771C54.5626 23.9255 55.033 22.5003 55.033 20.7016C55.033 18.9305 54.5626 17.5468 53.6217 16.5506C52.6808 15.5267 51.477 15.0147 50.0104 15.0147C48.5437 15.0147 47.3261 15.5267 46.3575 16.5506C45.4166 17.5745 44.9462 18.972 44.9462 20.7431Z" fill="black"/>
+        <path d="M68.5354 25.0601C69.5593 26.084 70.7908 26.596 72.2298 26.596C73.6688 26.596 74.8864 26.084 75.8827 25.0601C76.9066 24.0362 77.4185 22.611 77.4185 20.7846C77.4185 18.9581 76.9066 17.533 75.8827 16.5091C74.8864 15.4852 73.6688 14.9732 72.2298 14.9732C70.7908 14.9732 69.5593 15.4852 68.5354 16.5091C67.5392 17.533 67.0411 18.9581 67.0411 20.7846C67.0411 22.611 67.5392 24.0362 68.5354 25.0601ZM64.5505 13.0222C66.5983 10.9744 69.1581 9.95051 72.2298 9.95051C75.3015 9.95051 77.8475 10.9744 79.8676 13.0222C81.9154 15.0701 82.9393 17.6575 82.9393 20.7846C82.9393 23.9117 81.9154 26.4991 79.8676 28.5469C77.8475 30.5947 75.3015 31.6186 72.2298 31.6186C69.1581 31.6186 66.5983 30.5947 64.5505 28.5469C62.5303 26.4991 61.5203 23.9117 61.5203 20.7846C61.5203 17.6575 62.5303 15.0701 64.5505 13.0222Z" fill="black"/>
+        <path d="M89.4557 25.0601C90.4796 26.084 91.7111 26.596 93.1501 26.596C94.5891 26.596 95.8067 26.084 96.803 25.0601C97.8269 24.0362 98.3388 22.611 98.3388 20.7846C98.3388 18.9581 97.8269 17.533 96.803 16.5091C95.8067 15.4852 94.5891 14.9732 93.1501 14.9732C91.7111 14.9732 90.4796 15.4852 89.4557 16.5091C88.4595 17.533 87.9614 18.9581 87.9614 20.7846C87.9614 22.611 88.4595 24.0362 89.4557 25.0601ZM85.4708 13.0222C87.5186 10.9744 90.0784 9.95051 93.1501 9.95051C96.2218 9.95051 98.7678 10.9744 100.788 13.0222C102.836 15.0701 103.86 17.6575 103.86 20.7846C103.86 23.9117 102.836 26.4991 100.788 28.5469C98.7678 30.5947 96.2218 31.6186 93.1501 31.6186C90.0784 31.6186 87.5186 30.5947 85.4708 28.5469C83.4506 26.4991 82.4406 23.9117 82.4406 20.7846C82.4406 17.6575 83.4506 15.0701 85.4708 13.0222Z" fill="black"/>
+      </svg>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Destinations</a></li>
+      <li><a href="#">Hotels</a></li>
+      <li><a href="#">Flights</a></li>
+      <li><a href="#">Booking</a></li>
+      <li><a href="#">Login</a></li>
+      <li><button class="button">Sign up</button></li>
+      <li>
+        <select class="language-select">
+          <option>Eng</option>
+          <option>Urdu</option>
+        </select>
+      </li>
+    </ul>
+  </nav>
 
-</div>
-</div>
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-left">
+      <h5 class="margin-top text-color">Best Destinations around the world</h5>
+      <h1 class="hero-heading">Travel, enjoy and live a new and full life</h1>
+      <p class="hero-text">
+        Built Wicket longer admire do barton vanity itself do in it. <br class="desktop-only" />
+        preferred to sportsman it engrossed listning. Park gote <br class="desktop-only" />
+        sell they west hard for the.
+      </p>
+      <div class="btn-section">
+        <a class="find-more" href="#">Find out more</a>
+        <a class="demo-btn" href="#"><img src="images/play-button.png" alt="play-button" /> Play Demo</a>
+      </div>
+    </div>
+    <picture class="hero-image">
+      <img class="hero-img1" src="images/Decore.svg" alt="Decor SVG" />
+      <img class="plane" src="images/plane.png" alt="Plane">
+      <img class="plane2" src="images/plane.png" alt="Plane">
+      <img class="hero-img2" src="images/Traveller 1.png" alt="Hero Image" />
+    </picture>
+  </div>
+
+<script src="js/app.js"></script>
 </body>
 </html>
